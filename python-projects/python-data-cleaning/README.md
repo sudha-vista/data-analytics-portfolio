@@ -1,6 +1,8 @@
-# Python Data Cleaning Project       ← main title
+# Python Data Cleaning Project
 
-## Key Steps                         ← section
+This project demonstrates basic data cleaning and analysis using Python and Pandas.
+
+## Key Steps
 - Reading student data from CSV
 - Filling missing marks with average values
 - Renaming columns for clarity
@@ -8,5 +10,5 @@
 - Identifying the top-performing student
 - Saving cleaned data to a new CSV file
 
-## Goal                              ← section
+## Goal
 To prepare messy data for analysis and generate meaningful insights.
