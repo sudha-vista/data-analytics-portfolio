@@ -1,0 +1,73 @@
+Query 1 Output: Students Table
++------------+-------+------------+----------+
+| student_id | name  | department | semester |
++------------+-------+------------+----------+
+|          1 | Rahul | CSE        |        1 |
+|          2 | Anita | CSE        |        1 |
+|          3 | Karan | ECE        |        1 |
+|          4 | Sneha | ECE        |        1 |
++------------+-------+------------+----------+
+
+Query 2 Output: Results Table
++-----------+------------+---------+-------+
+| result_id | student_id | subject | marks |
++-----------+------------+---------+-------+
+|       101 |          1 | Maths   |    78 |
+|       102 |          1 | Python  |    85 |
+|       103 |          2 | Maths   |    88 |
+|       104 |          2 | Python  |    90 |
+|       105 |          3 | Maths   |    65 |
+|       106 |          3 | Python  |    70 |
+|       107 |          4 | Maths   |    92 |
+|       108 |          4 | Python  |    95 |
++-----------+------------+---------+-------+
+
+Query 3 Output: Student-wise Marks
++-------+---------+-------+
+| name  | subject | marks |
++-------+---------+-------+
+| Rahul | Maths   |    78 |
+| Rahul | Python  |    85 |
+| Anita | Maths   |    88 |
+| Anita | Python  |    90 |
+| Karan | Maths   |    65 |
+| Karan | Python  |    70 |
+| Sneha | Maths   |    92 |
+| Sneha | Python  |    95 |
++-------+---------+-------+
+
+Query 4 Output: Average Marks per Student
++-------+---------------+
+| name  | average_marks |
++-------+---------------+
+| Rahul |       81.5000 |
+| Anita |       89.0000 |
+| Karan |       67.5000 |
+| Sneha |       93.5000 |
++-------+---------------+
+
+Query 5 Output: Students Scoring > 80 in any Subject
++-------+---------+-------+
+| name  | subject | marks |
++-------+---------+-------+
+| Rahul | Python  |    85 |
+| Anita | Maths   |    88 |
+| Anita | Python  |    90 |
+| Sneha | Maths   |    92 |
+| Sneha | Python  |    95 |
++-------+---------+-------+
+
+Query 6 Output: Department-wise Average Marks
++------------+--------------------+
+| department | department_average |
++------------+--------------------+
+| CSE        |            85.2500 |
+| ECE        |            80.5000 |
++------------+--------------------+
+
+Query 7 Output: Top Scorer (Highest Marks)
++-------+---------+-------+
+| name  | subject | marks |
++-------+---------+-------+
+| Sneha | Python  |    95 |
++-------+---------+-------+
