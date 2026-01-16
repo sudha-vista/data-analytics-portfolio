@@ -97,49 +97,103 @@ LIMIT 1;
 
 ## Output
 
-### Students Table
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ RESULTS TABLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+result_id
+student_id
+subject
+marks
+101
+1
+Maths
+78
+102
+1
+Python
+85
+103
+2
+Maths
+88
+104
+2
+Python
+90
+105
+3
+Maths
+65
+106
+3
+Python
+70
+107
+4
+Maths
+92
+108
+4
+Python
+95
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-| student_id | name  | department | semester |
-|------------|-------|------------|----------|
-| 1 | Rahul | CSE | 1 |
-| 2 | Anita | CSE | 1 |
-| 3 | Karan | ECE | 1 |
-| 4 | Sneha | ECE | 1 |
 
-### Results Table
 
-| result_id | student_id | subject | marks |
-|----------|------------|---------|-------|
-| 101 | 1 | Maths | 78 |
-| 102 | 1 | Python | 85 |
-| 103 | 2 | Maths | 88 |
-| 104 | 2 | Python | 90 |
-| 105 | 3 | Maths | 65 |
-| 106 | 3 | Python | 70 |
-| 107 | 4 | Maths | 92 |
-| 108 | 4 | Python | 95 |
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ STUDENT-WISE SUBJECT MARKS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+name
+subject
+marks
+Rahul
+Maths
+78
+Rahul
+Python
+85
+Anita
+Maths
+88
+Anita
+Python
+90
+Karan
+Maths
+65
+Karan
+Python
+70
+Sneha
+Maths
+92
+Sneha
+Python
+95
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### Average Marks per Student
 
-| name  | average_marks |
-|-------|---------------|
-| Rahul | 81.5 |
-| Anita | 89.0 |
-| Karan | 67.5 |
-| Sneha | 93.5 |
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ AVERAGE MARKS PER STUDENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+name
+average_marks
+Rahul
+81.5
+Anita
+89.0
+Karan
+67.5
+Sneha
+93.5
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-### Department-wise Average
-
-| department | department_average |
-|------------|--------------------|
-| CSE | 85.25 |
-| ECE | 80.50 |
-
-### Top Scorer
-
-| name | subject | marks |
-|------|---------|-------|
-| Sneha | Python | 95 |
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ DEPARTMENT-WISE AVERAGE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+department_average
+department
+CSE
+85.25
+ECE
+80.50
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## Explanation
 
