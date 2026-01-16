@@ -94,10 +94,9 @@ JOIN results r
 ON s.student_id = r.student_id
 ORDER BY r.marks DESC
 LIMIT 1;
-
 ## Output
 
-### Students Table
+**Students Table**
 
 | student_id | name  | department | semester |
 |------------|-------|------------|----------|
@@ -106,10 +105,12 @@ LIMIT 1;
 | 3 | Karan | ECE | 1 |
 | 4 | Sneha | ECE | 1 |
 
-### Results Table
+---
+
+**Results Table**
 
 | result_id | student_id | subject | marks |
-|----------|------------|---------|-------|
+|-----------|------------|---------|-------|
 | 101 | 1 | Maths | 78 |
 | 102 | 1 | Python | 85 |
 | 103 | 2 | Maths | 88 |
@@ -119,7 +120,24 @@ LIMIT 1;
 | 107 | 4 | Maths | 92 |
 | 108 | 4 | Python | 95 |
 
-### Average Marks per Student
+---
+
+**Student-wise Subject Marks**
+
+| name  | subject | marks |
+|-------|---------|-------|
+| Rahul | Maths | 78 |
+| Rahul | Python | 85 |
+| Anita | Maths | 88 |
+| Anita | Python | 90 |
+| Karan | Maths | 65 |
+| Karan | Python | 70 |
+| Sneha | Maths | 92 |
+| Sneha | Python | 95 |
+
+---
+
+**Average Marks per Student**
 
 | name  | average_marks |
 |-------|---------------|
@@ -128,18 +146,35 @@ LIMIT 1;
 | Karan | 67.5 |
 | Sneha | 93.5 |
 
-### Department-wise Average
+---
+
+**Students Scoring Above 80**
+
+| name  | subject | marks |
+|-------|---------|-------|
+| Rahul | Python | 85 |
+| Anita | Maths | 88 |
+| Anita | Python | 90 |
+| Sneha | Maths | 92 |
+| Sneha | Python | 95 |
+
+---
+
+**Department-wise Average Marks**
 
 | department | department_average |
 |------------|--------------------|
 | CSE | 85.25 |
 | ECE | 80.50 |
 
-### Top Scorer
+---
+
+**Top Scorer**
 
 | name | subject | marks |
 |------|---------|-------|
 | Sneha | Python | 95 |
+
 ## Explanation
 
 1. Database Creation  
