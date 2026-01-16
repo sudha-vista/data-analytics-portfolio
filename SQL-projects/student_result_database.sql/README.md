@@ -140,7 +140,6 @@ LIMIT 1;
 | name | subject | marks |
 |------|---------|-------|
 | Sneha | Python | 95 |
-
 ## Explanation
 
 1. Database Creation  
