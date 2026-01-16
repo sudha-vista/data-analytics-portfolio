@@ -1,9 +1,24 @@
-student result database – SQL Project
-Project Overview
-This project demonstrates a simple student–result management system using SQL.
-It includes table creation, data insertion, and analytical queries such as averages, top scorers, and department-wise performance.
-SQL Queries Used
-Sql
+# student result database – SQL Project
+
+## Project Overview
+This project demonstrates a simple **student–result management system** using SQL.  
+It includes **table creation, data insertion, and analytical queries** such as averages, top scorers, and department-wise performance.
+
+---
+
+## Database Schema
+
+### Students Table
+- Stores basic student details
+
+### Results Table
+- Stores subject-wise marks linked using `student_id`
+
+---
+
+## SQL Queries Used
+
+```sql
 -- Create students table
 CREATE TABLE students (
     student_id INTEGER PRIMARY KEY,
@@ -79,6 +94,7 @@ JOIN results r
 ON s.student_id = r.student_id
 ORDER BY r.marks DESC
 LIMIT 1;
+
 ## Output
 
 ### Students Table
@@ -125,19 +141,23 @@ LIMIT 1;
 |------|---------|-------|
 | Sneha | Python | 95 |
 
-Explanation
-1. Database Creation
-Two tables were created:
-students – stores student details
-results – stores subject marks linked by student_id
-2. Joins
-A JOIN is used to match each student with their marks.
-3. Aggregations
-Functions used:
-AVG() → average marks per student and department
-ORDER BY + LIMIT → finding the top scorer
-4. Insights Derived
-Sneha is the top scorer.
-CSE department has a higher average than ECE.
-Students with marks > 80 are identified.
-Average marks per student calculated.
+## Explanation
+
+1. Database Creation  
+Two tables were created:  
+- **students** – stores student details  
+- **results** – stores subject marks linked by `student_id`
+
+2. Joins  
+A `JOIN` is used to match each student with their marks.
+
+3. Aggregations  
+Functions used:  
+- `AVG()` → average marks per student and department  
+- `ORDER BY` + `LIMIT` → finding the top scorer  
+
+4. Insights Derived  
+- Sneha is the top scorer  
+- CSE department has a higher average than ECE  
+- Students with marks > 80 are identified  
+- Average marks per student calculated.
