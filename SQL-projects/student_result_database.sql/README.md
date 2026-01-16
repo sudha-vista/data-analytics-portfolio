@@ -93,7 +93,9 @@ FROM students s
 JOIN results r
 ON s.student_id = r.student_id
 ORDER BY r.marks DESC
-LIMIT 1;## Output
+LIMIT 1;
+
+## Output
 
 ### Students Table
 
