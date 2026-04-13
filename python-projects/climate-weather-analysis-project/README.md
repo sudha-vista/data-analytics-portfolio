@@ -1,4 +1,4 @@
-# Climate Weather Analysis
+# Climate Weather Analysis Project
 
 ## Project Overview
 This project analyzes weather data to explore patterns in temperature and rainfall.  
