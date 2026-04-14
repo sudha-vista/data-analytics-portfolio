@@ -1,4 +1,4 @@
-# Student Result Database
+# Student Result Database Project
 
 ## Overview
 A simple SQL-based project to store and analyze student academic results using relational database concepts.
