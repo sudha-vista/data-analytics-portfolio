@@ -15,7 +15,7 @@ A simple SQL-based project to store and analyze student academic results using r
 - Top scorer identification
 
 ## Technologies
-- SQL (MySQL / SQLite / PostgreSQL)
+- SQL (SQLite)
 
 ## Usage
 Run `student_result_database.sql` in any SQL environment to create tables, insert data, and execute queries.
