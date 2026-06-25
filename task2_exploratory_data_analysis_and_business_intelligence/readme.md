@@ -1,4 +1,4 @@
-Retail Sales eda dashboard
+Exploratory data analysis and business intelligence 
 
 This project analyzes retail sales data using Microsoft Excel.
 
