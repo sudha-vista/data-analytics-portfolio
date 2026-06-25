@@ -2,14 +2,14 @@
 
 This project analyzes retail sales data using Microsoft Excel.
 
-Included
+## Included
 
 - Cleaned Dataset
 - Pivot Tables
 - KPI Dashboard
 - Charts & Visualizations
 
-Highlights
+## Highlights
 
 - Total Sales: ₹507,110
 - Total Orders: 27
