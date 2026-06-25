@@ -1,4 +1,4 @@
-Retail Sales Mockup
+Retail Sales eda dashboard
 
 This project analyzes retail sales data using Microsoft Excel.
 
