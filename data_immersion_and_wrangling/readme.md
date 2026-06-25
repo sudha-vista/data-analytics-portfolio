@@ -1,4 +1,4 @@
-# Retail Sales Data Cleaning & Wrangling
+Data immersion and wrangling 
 
 ##  Project Overview
 
