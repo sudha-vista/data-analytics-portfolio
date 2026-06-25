@@ -1,4 +1,4 @@
-Exploratory data analysis and business intelligence 
+# Exploratory data analysis and business intelligence 
 
 This project analyzes retail sales data using Microsoft Excel.
 
