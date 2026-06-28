@@ -73,4 +73,4 @@ This internship strengthened my practical skills in data analytics by applying a
 
 ## Author
 
-**Sudharshini Sri V**
+**Sudarshini Sri V**
