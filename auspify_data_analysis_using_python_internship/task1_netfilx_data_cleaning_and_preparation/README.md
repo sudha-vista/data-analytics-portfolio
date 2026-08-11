@@ -28,8 +28,8 @@ This project focuses on preparing the Netflix dataset for analysis using Python 
 
 ## Files Included
 
-- `Netflix_Data_Cleaning_and_Preparation.ipynb` – Jupyter Notebook containing the complete workflow.
-- `Dataset.csv` – Original Netflix dataset.
+- `netflix_data_cleaning_and_preparation.ipynb` – Jupyter Notebook containing the complete workflow.
+- `dataset.csv` – Original Netflix dataset.
 - `cleaned_netflix_dataset.csv` – Prepared dataset after preprocessing.
 
 ---
