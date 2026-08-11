@@ -60,7 +60,7 @@ The projects use the Netflix dataset provided for the internship. The cleaned da
 - Python  
 - Pandas  
 - Matplotlib
-- 
+
 ## Internship Outcome  
 Completed four practical data analysis tasks covering data cleaning, content analysis, country-wise analysis, and trend analysis using Python.  
   
