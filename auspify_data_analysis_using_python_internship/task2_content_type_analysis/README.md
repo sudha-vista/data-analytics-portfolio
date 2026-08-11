@@ -39,7 +39,7 @@ The cleaned Netflix dataset from Task 1 was used for this analysis.
 ## Files
 
 - `content_type_analysis.ipynb` - Python notebook containing the analysis.
-- `Cleaned_netfilx_dataset.csv` - Cleaned dataset used for the analysis.
+- `cleaned_netfilx_dataset.csv` - Cleaned dataset used for the analysis.
 
 ## Conclusion
 
