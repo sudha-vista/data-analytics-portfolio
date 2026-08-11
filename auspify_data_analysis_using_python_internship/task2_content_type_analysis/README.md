@@ -9,7 +9,7 @@ The objective of this task is to analyze the distribution of Movies and TV Shows
 
 ## Dataset
 
-The cleaned Netflix dataset from Task 1 was used for this analysis.
+The Cleaned netflix dataset from Task 1 was used for this analysis.
 
 ## Tools and Technologies
 
