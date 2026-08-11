@@ -22,15 +22,11 @@ The internship tasks were completed using Python, Pandas, and Matplotlib with a 
   
 Prepared the Netflix dataset for analysis by checking data quality, handling data issues, standardizing columns, and exporting the cleaned dataset.  
   
-**Folder:** `task1_netflix_data_cleaning_and_preparation`  
-  
 ---  
   
 ### Task 2 - Content Type Analysis  
   
 Analyzed the distribution of Movies and TV Shows and compared their proportions using charts.  
-  
-**Folder:** `task2_content_type_analysis`  
   
 ---  
   
@@ -38,15 +34,11 @@ Analyzed the distribution of Movies and TV Shows and compared their proportions 
   
 Analyzed Netflix content availability across countries and identified the top content-producing countries.  
   
-**Folder:** `task3_country-wise_netflix_content_analysis`  
-  
 ---  
   
 ### Task 4 - Trend Analysis by Release Year  
   
 Analyzed Netflix content based on release year to understand changes in content production over time.  
-  
-**Folder:** `task4_trend_analysis_by_release_year`  
   
 ---  
   
